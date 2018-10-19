@@ -115,6 +115,7 @@ import sys
 #给python解释器添加一条模块搜索的路径
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 
+# STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
 
 # 富文本编辑器配置
